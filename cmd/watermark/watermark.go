@@ -29,8 +29,8 @@ func main() {
 		//configuriamo gli indirizzi per i server HTTP e gRPC
 		//net.JoinHostPort() è una funzione che combina un hostname e una porta in un singolo indirizzo. Per esempio, unisce "localhost" e "8081" in "localhost:8081"
 		//envString() è una funzione helper definita alla fine del file
-		httpAddr = net.JoinHostPort("localhost", envString("HTTP_PORT", defaultHTTPPort))
-		grpcAddr = net.JoinHostPort("localhost", envString("GRPC_PORT", defaultGRPCPort))
+		httpAddr = net.JoinHostPort("0.0.0.0", envString("HTTP_PORT", defaultHTTPPort))
+		grpcAddr = net.JoinHostPort("0.0.0.0", envString("GRPC_PORT", defaultGRPCPort))
 	)
 
 	//log.NewLogfmtLogger() crea un nuovo logger che usa il formato logfmt (un formato chiave-valore comune per i log)

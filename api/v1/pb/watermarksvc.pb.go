@@ -20,7 +20,7 @@ It has these top-level messages:
 	ServiceStatusRequest
 	ServiceStatusReply
 */
-package watermark
+package pb
 
 import (
 	"fmt"

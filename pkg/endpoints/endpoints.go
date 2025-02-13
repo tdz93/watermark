@@ -5,7 +5,7 @@ import (
 	"errors"
 	"os"
 	"watermark-service/internal"
-	"watermark-service/pkg/watermark"
+	watermark "watermark-service/pkg"
 
 	"github.com/go-kit/kit/endpoint"
 	"github.com/go-kit/log"

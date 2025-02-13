@@ -4,8 +4,8 @@ import (
 	"context"
 	"errors"
 	"os"
-	"watermark-service/internal"
-	watermark "watermark-service/pkg"
+	"watermark/internal"
+	watermark "watermark/pkg"
 
 	"github.com/go-kit/kit/endpoint"
 	"github.com/go-kit/log"

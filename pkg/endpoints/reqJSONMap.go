@@ -1,7 +1,7 @@
 package endpoints
 
 import (
-	"watermark-service/internal"
+	"watermark/internal"
 )
 
 type GetRequest struct {

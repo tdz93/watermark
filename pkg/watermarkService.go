@@ -4,7 +4,7 @@ import (
 	"context"
 	"net/http"
 	"os"
-	"watermark-service/internal"
+	"watermark/internal"
 
 	"github.com/go-kit/log"
 	"github.com/lithammer/shortuuid"

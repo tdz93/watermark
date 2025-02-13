@@ -1,4 +1,4 @@
-module watermark-service
+module watermark
 
 go 1.23
 

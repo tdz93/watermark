@@ -2,9 +2,10 @@ package transport
 
 import (
 	"context"
-	"watermark/api/v1/pb"
-	"watermark/internal"
-	"watermark/pkg/endpoints"
+
+	"github.com/tdz93/watermark/api/v1/pb"
+	"github.com/tdz93/watermark/internal"
+	"github.com/tdz93/watermark/pkg/endpoints"
 
 	grpctransport "github.com/go-kit/kit/transport/grpc"
 )

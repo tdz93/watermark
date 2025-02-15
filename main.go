@@ -7,10 +7,11 @@ import (
 	"os"
 	"os/signal"
 	"syscall"
-	"watermark/api/v1/pb"
-	watermark "watermark/pkg"
-	"watermark/pkg/endpoints"
-	"watermark/pkg/transport"
+
+	"github.com/tdz93/watermark/api/v1/pb"
+	watermark "github.com/tdz93/watermark/pkg"
+	"github.com/tdz93/watermark/pkg/endpoints"
+	"github.com/tdz93/watermark/pkg/transport"
 
 	kitgrpc "github.com/go-kit/kit/transport/grpc"
 	"github.com/go-kit/log"

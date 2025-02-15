@@ -2,7 +2,8 @@ package watermark
 
 import (
 	"context"
-	"watermark/internal"
+
+	"github.com/tdz93/watermark/internal"
 )
 
 type Service interface {

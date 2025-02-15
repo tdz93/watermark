@@ -5,8 +5,9 @@ import (
 	"encoding/json"
 	"net/http"
 	"os"
-	"watermark/internal/util"
-	"watermark/pkg/endpoints"
+
+	"github.com/tdz93/watermark/internal/util"
+	"github.com/tdz93/watermark/pkg/endpoints"
 
 	httptransport "github.com/go-kit/kit/transport/http"
 	"github.com/go-kit/log"

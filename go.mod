@@ -1,4 +1,4 @@
-module watermark
+module github.com/tdz93/watermark
 
 go 1.23
 
